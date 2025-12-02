@@ -25,7 +25,7 @@ impl Scanner {
             self.scan_token();
         }
         self.tokens.push(Token::eof(self.line));
-        Ok(&self.tokens)
+        Ok(self.tokens.clone())
     }
 
     pub fn is_at_end(&self) -> bool {
