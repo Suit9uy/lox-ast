@@ -1,0 +1,8 @@
+[package]
+name = "lox-ast"
+version = "0.1.0"
+authors = ["Suit9uy"]
+edition = "2021"
+
+
+[dependencies]
